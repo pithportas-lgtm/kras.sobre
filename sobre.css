@@ -471,6 +471,12 @@ h1, h2, h3, h4, h5, h6 {
   opacity: .75;
   transition: .25s;
 }
+.secao-sobre {
+    background-color: rgba(13, 109, 253, 0.582); /* Um azul subtil com 4% de opacidade */
+    padding: 20px 5px;                         /* Espaçamento interno para dar "respiro" */
+    border-radius: 10px;                        /* Cantos ligeiramente arredondados (opcional) */
+    margin: 14px auto;                          /* Margem para separar dos outros blocos */
+}
 .logos-track img:hover {
   filter: grayscale(0);
   opacity: 1;
